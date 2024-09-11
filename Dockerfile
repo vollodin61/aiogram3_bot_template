@@ -1,9 +1,11 @@
-FROM python:3.11.5-alpine3.18
+FROM python:3.12.4-slim
 
-WORKDIR /sarafanka
+WORKDIR /tg_bot
 
-COPY . .
+COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "bot/main.py"]
+COPY . .
+
+CMD ["python", "main.py"]
