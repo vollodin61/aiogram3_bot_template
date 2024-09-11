@@ -1,0 +1,12 @@
+aiogram
+aioredis
+aio-scheduler
+APScheduler
+apscheduler-di
+asyncpg
+black
+emoji
+environs
+icecream
+loguru
+redis
