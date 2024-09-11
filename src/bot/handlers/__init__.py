@@ -1,6 +1,5 @@
 from aiogram import Dispatcher
 
-from bot.config.cfg import dp
 from .default import def_router
 from .custom import cust_router
 
