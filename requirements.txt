@@ -1,5 +1,5 @@
 aiogram
-aioredis
+aiohttp
 aio-scheduler
 APScheduler
 apscheduler-di
@@ -9,4 +9,12 @@ emoji
 environs
 icecream
 loguru
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+gspread
+gspread_asyncio
+gspread-formatting
+oauth2client
 redis
+Telethon
